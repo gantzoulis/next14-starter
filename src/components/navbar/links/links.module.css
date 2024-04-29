@@ -1,6 +1,7 @@
 .links{
     display: flex;
     align-items: center;
+    font-weight: bold;
     gap:10px;
 }
 

@@ -4,13 +4,13 @@ import { usePathname } from "next/navigation";
 import styles from "./navLink.module.css";
 import Link from "next/link";
 
-const NavLink = ({item}) => {
+const NavLink = ({item, itemkey}) => {
 
 const pathName = usePathname();
 
   return (
     
-    <Link href={item.path} key={item.title} 
+    <Link href={item.path} key={itemkey} 
           className={`${styles.container} ${pathName === item.path && styles.active}`}>
             {item.title}
      </Link>
