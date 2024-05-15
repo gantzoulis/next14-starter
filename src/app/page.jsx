@@ -20,7 +20,10 @@ const Home = () => {
           </div>
         </div>
         <div className={styles.imageContainer}>
-          <Image src="/images/dojang-js-logo-white-transparent.png" fill className={styles.dojangImage} alt=""/>
+          <Image src="/images/dojang-js-logo-white-transparent.png" 
+            fill 
+            className={styles.dojangImage} alt=""
+          />
         </div>
     </div>
   
